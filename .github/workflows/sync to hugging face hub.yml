@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://PBusienei:$HF_TOKEN@huggingface.co/spaces/PBusienei/Sentence-similarity-model-Nashville-Analytic-Summit main
+        run: git push  --force https://PBusienei:$HF_TOKEN@huggingface.co/spaces/PBusienei/Sentence-similarity-model-Nashville-Analytic-Summit main
