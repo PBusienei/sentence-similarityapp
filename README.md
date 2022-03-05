@@ -4,7 +4,7 @@ emoji:🤗
 colorFrom: yellow
 colorTo:red
 sdk: streamlit
-app_file: app.py
+app_file: sentencesim.py
 pinned: false
 license: afl-3.0
 ---
